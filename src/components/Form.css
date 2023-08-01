@@ -1,0 +1,86 @@
+.form-container{
+    background-color: #451D55;
+    height: 19rem;
+    width: 80vb;
+    align-items: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content:space-between; */
+    border: 1px solid #7A3B93;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px;
+}
+
+
+.form-container form {
+    /* display: flex; */
+    position: absolute;
+    /* flex-direction: column; */
+    align-items: center;
+    margin-right: 2rem;
+    
+  }
+  
+  .form-container label {
+    margin-bottom: 8px; /* Add spacing between the label and the input field */
+    display: flex;
+    flex-direction: column; /* Label appears above the input field */
+    align-items: center; /* Align label and input field at the center */
+    text-align: center; /* Center the text content within the label */
+    font-family:Arial, Helvetica, sans-serif;  
+    color: #fff;
+}
+  
+  .form-container input {
+    padding: 8px;
+    margin-bottom: 16px; /* Add spacing between the input fields */
+    border: 2px solid #7A3B93;
+    border-radius: 4px;
+    background-color: #7A3B93;
+    color: white;
+  }
+
+  
+  .form-container textarea {
+    padding: 8px;
+    margin-bottom: 16px; /* Add spacing between the input fields */
+    border: 2px solid #7A3B93;
+    border-radius: 10px 10px 35px 10px;
+    background-color: #7A3B93;
+    color: white;
+    height: 6rem;
+  }
+  .form-inputs{
+    display: flex;
+    gap: 2rem;
+    margin-top: 40px;
+  }
+  .form-container button {
+    /* padding: 8px 16px; */
+    position: absolute;
+    background-color: transparent;
+    color: #7A3B93;
+    right: -3.9rem;
+    bottom: -4.2rem;
+    border: none;
+    
+    cursor: pointer;
+    z-index: 2;
+    margin-bottom: 10px;
+    
+  }
+
+/* .text{
+    color: white;
+    z-index: 1;
+    font-weight: 100;
+    bottom: 4rem;
+    color: #FF81FF;
+    font-family: Oxanium;
+    font-size: 50.852px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.322px;
+} */
